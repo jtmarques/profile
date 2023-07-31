@@ -1,23 +1,3 @@
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
-}
 
 body {
   background-color: #edf4f5;
@@ -61,9 +41,9 @@ a:hover {
 }
 
 .container {
-width: 600px;
-margin: 0 auto;
-list-style-type: none;
+  width: 60vw;
+  margin: 0 auto;
+  list-style-type: none;
 }
 
 #img-profile {
@@ -89,17 +69,35 @@ list-style-type: none;
 }
 
 .card-white {
-border-radius: 20px;
-background-color: white;
-margin: 20px 0px;
-padding: 40px 40px;
-text-align: center;
-box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px 0px;
+  padding: 40px 40px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 
 #buttons-social {
   font-size: 30px;
 }
 
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 60vw;
+  }
+}
 
-/* margin/border/padding/width/height */
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 60vw;
+  }
+}
